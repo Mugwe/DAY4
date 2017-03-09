@@ -5,4 +5,8 @@ def find_missing(list1 , list2):
     elif list1 == list2:
         return 0 ("should return 0 for lists with the same entries")
     else:
-    	return (list1 ^ list2)
+    	d = (list1 ^ list2)
+
+    	return d
+
+    	print d
